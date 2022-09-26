@@ -1,0 +1,5 @@
+print("Enter element with comma ','")
+t1=tuple([int(i) for i in input().split(',')])
+print(t1)
+print(type(t1))
+print("Reverse of tuple t1 is ",t1[::-1])

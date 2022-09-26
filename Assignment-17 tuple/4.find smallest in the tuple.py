@@ -1,0 +1,5 @@
+print("Enter a list")
+t1=tuple(eval(input()))
+print(type(t1))
+print(t1)
+print("Smallest element is ",min(t1))
